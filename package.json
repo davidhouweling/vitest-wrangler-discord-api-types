@@ -1,0 +1,22 @@
+{
+  "name": "vitest-discord-api-types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_DEBUG=vitest-pool-workers:module-fallback vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.5.28",
+    "@tsconfig/node22": "^22.0.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.105"
+  }
+}
